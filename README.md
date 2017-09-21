@@ -22,6 +22,11 @@ Sponsors
 
 # Colors
 Colors are available in the code, at the top. Uncomment one of the provided colors.
+For the new 2017 design:
+![alt tag](https://raw.githubusercontent.com/RaitaroH/LinuxMint_Blog-Deepdark/master/Images/DeepDark_Colors2.png)
+![alt tag](https://raw.githubusercontent.com/RaitaroH/LinuxMint_Blog-Deepdark/master/Images/Mint-Y-Dark_Colors2.png)
+
+Older examples
 ![alt tag](https://raw.githubusercontent.com/RaitaroH/LinuxMint_Blog-Deepdark/master/Images/ArcDark_Colors.png)
 ![alt tag](https://raw.githubusercontent.com/RaitaroH/LinuxMint_Blog-Deepdark/master/Images/BreezeDark_Colors.png)
 ![alt tag](https://raw.githubusercontent.com/RaitaroH/LinuxMint_Blog-Deepdark/master/Images/DeepDark_Colors.png)
