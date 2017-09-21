@@ -2,7 +2,7 @@
 
 /*Theme made by RaitaroH @https://github.com/RaitaroH/LinuxMint_Blog-Deepdark*/
 	
-/*1.0.0*/
+/*1.0.1*/
 	
 	/*Main color variables*/
 	:root
@@ -143,12 +143,12 @@
 		text-decoration: none !important;
 	}
 
-	body, html
+	body, html, #page::before, .sidebar-offcanvas, #secondary
 	{
 		background-color: var(--second-background) !important;
 		color: var(--dimer-text) !important;
 	}
-	#page
+	#page, #primary, #primary .page-title
 	{
 		background-color: var(--main-background) !important;
 	}
@@ -182,6 +182,33 @@
 		border-radius: 0 0 50px 50px !important;
 	}
 	
+	.hentry, #primary .page-title
+	{
+		border-color: var(--hover-background) !important;	
+	}
+	.hentry .entry-meta
+	{
+		color: var(--dimer-text) !important;
+	}
+
+	a.url.fn.n:hover span
+	{
+		color: var(--main-color) !important;
+		opacity: 1;
+	}
+
+	/*Logo*/
+	h1 img
+	{
+		display: block !important;
+		-moz-box-sizing: border-box !important;
+		box-sizing: border-box !important;
+		background: url(https://raw.githubusercontent.com/RaitaroH/LinuxMint_Blog-Deepdark/master/Images/linux_mint_logo.png) no-repeat !important; /*image adapted from https://github.com/keeferrourke/la-capitaine-icon-theme*/
+		width: 150px !important;
+		height: 134px !important;
+		padding-left: 150px !important;
+		position: relative !important;
+	}
 
 	/*Search*/
 	#search input
@@ -222,7 +249,7 @@
 		border-color: var(--hover-background) !important;
 		color: var(--main-text) !important;
 	}
-	td img
+	td img, table
 	{
 		border-color: var(--hover-background) !important;
 	}
@@ -236,9 +263,23 @@
 		border-radius: 20px !important;
 	}
 
+	.single .post-navigation
+	{
+		background: var(--hover-background) !important;
+		border-color: var(--hover-background) !important;
+	}
+	.single .post-title:hover, .single .post-navigation .meta-nav:hover
+	{
+		color: var(--main-color) !important;
+	}
+
 
 	/*Comments*/
-	cite
+	textarea, input[type="text"], input[type="password"], input[type="datetime"], input[type="datetime-local"], input[type="date"], input[type="month"], input[type="time"], input[type="week"], input[type="number"], input[type="email"], input[type="url"], input[type="search"], input[type="tel"], input[type="color"]
+	{
+		color: var(--dimer-text) !important;
+	}
+	cite, #comments .comment .fn
 	{
 		color: var(--main-color) !important;
 	}
@@ -250,8 +291,10 @@
 	{
 		opacity: 1;
 	}
-	
-	
+	#comments .comment, #comments .children, #comments, .comment #respond
+	{
+		border-color: var(--hover-background) !important;
+	}
 
 	#author, #email, #url, #comment, #submit
 	{
@@ -289,9 +332,28 @@
 	}
 
 
+	/*Footer*/
 	#footer
 	{
 		background: var(--hover-background) !important;
 		border-radius: 50px 50px 0px 0px !important;
+	}
+	.site-info
+	{
+		background: var(--hover-background) !important;
+		border-color: var(--hover-background) !important;
+	}
+
+	
+	/*Pagination*/
+	.pagination .dots, .pagination .page-numbers
+	{
+		background: var(--hover-background) !important;
+		border-color: var(--hover-background) !important;
+		color: var(--main-text) !important;
+	}
+	.pagination .current, .pagination .dots:hover, .pagination .page-numbers:hover
+	{
+		color: var(--main-color) !important;
 	}
 }
