@@ -4,7 +4,7 @@
 	
 /*GNU General Public License v3.0*/
 	
-/*1.0.3*/
+/*1.0.4*/
 	
 	/*Main color variables*/
 	:root
@@ -283,12 +283,12 @@
 	}
 
 	/*Search*/
-	#search input
+	#search input, #searchform .field
 	{
 		background-color: var(--second-background) !important;
 		border-color: var(--hover-background) !important;	
 	}
-	#search input:hover, #search input:active, #search input:focus
+	#search input:hover, #search input:active, #search input:focus, #searchform .field:focus, #searchform .field:hover
 	{
 		border-color: var(--main-color) !important;	
 	}
@@ -311,6 +311,13 @@
 		background-image: none !important;
 		border-color: var(--main-color) !important;
 		border-style: dashed !important;
+	}
+	
+	
+	/*Image border*/
+	.wp-caption
+	{
+		border-color: var(--hover-background) !important;
 	}
 	
 	
