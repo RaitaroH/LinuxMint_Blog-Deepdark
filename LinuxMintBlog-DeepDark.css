@@ -285,7 +285,7 @@
 	/*Search*/
 	#search input, #searchform .field
 	{
-		background-color: var(--second-background) !important;
+		background-color: var(--main-background) !important;
 		border-color: var(--hover-background) !important;	
 	}
 	#search input:hover, #search input:active, #search input:focus, #searchform .field:focus, #searchform .field:hover
