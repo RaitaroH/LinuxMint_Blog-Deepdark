@@ -6,8 +6,6 @@ This is a dark theme for http://blog.linuxmint.com/ inspired by [FT DeepDark](ht
 
 Also, credit where credit is due for the color palettes down bellow. ([@KDE](https://github.com/KDE), [@horst3180](https://github.com/horst3180), [@linuxmint](https://github.com/linuxmint), [YouTube](https://www.youtube.com/) and [Discord](https://discordapp.com/))
 
-[![Install directly with Stylus](https://img.shields.io/badge/Install%20directly%20with-Stylus-285959.svg)](https://gitlab.com/RaitaroH/LinuxMint_Blog-Deepdark/raw/master/LinuxMintBlog-DeepDark.user.css)
-
 Theme as userstyle [here](https://userstyles.org/styles/148370/linuxmint-blog-deepdark).
 
 ### **You can also install all my themes at once from [here](https://gitlab.com/RaitaroH/Import-All-Deepdark).**
