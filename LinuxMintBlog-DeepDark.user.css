@@ -1,9 +1,9 @@
 /* ==UserStyle==
 @name LinuxMintBlog DeepDark
-@namespace github.com/RaitaroH/LinuxMint_Blog-Deepdark/
-@homepageURL https://github.com/RaitaroH/LinuxMint_Blog-Deepdark/
+@namespace gitlab.com/RaitaroH/LinuxMint_Blog-Deepdark/
+@homepageURL https://gitlab.com/RaitaroH/LinuxMint_Blog-Deepdark/
 @version 1.0.6
-@updateURL https://rawgit.com/RaitaroH/LinuxMint_Blog-Deepdark/master/LinuxMintBlog-DeepDark.user.css
+@updateURL https://gitlab.com/RaitaroH/LinuxMint_Blog-Deepdark/raw/master/LinuxMintBlog-DeepDark.user.css
 @description Follow minty news in the dark. May the dark be kinder on thine eyes. (linuxmint blog dark theme)
 @author RaitaroH
 @license GNU-V3.0
@@ -145,7 +145,7 @@
 
 @-moz-document domain("blog.linuxmint.com") {
 
-/*Theme made by RaitaroH @https://github.com/RaitaroH/LinuxMint_Blog-Deepdark*/
+/*Theme made by RaitaroH @https://gitlab.com/RaitaroH/LinuxMint_Blog-Deepdark*/
 
 /*GNU General Public License v3.0*/
 
@@ -418,7 +418,7 @@
 		display: block !important;
 		-moz-box-sizing: border-box !important;
 		box-sizing: border-box !important;
-		background: url(https://raw.githubusercontent.com/RaitaroH/LinuxMint_Blog-Deepdark/master/Images/linux_mint_logo.png) no-repeat !important; /*image adapted from https://github.com/keeferrourke/la-capitaine-icon-theme*/
+		background: url(https://raw.githubusercontent.com/RaitaroH/LinuxMint_Blog-Deepdark/raw/master/Images/linux_mint_logo.png) no-repeat !important; /*image adapted from https://gitlab.com/keeferrourke/la-capitaine-icon-theme*/
 		width: 150px !important;
 		height: 134px !important;
 		padding-left: 150px !important;
@@ -440,7 +440,7 @@
 		display: block !important;
 		-moz-box-sizing: border-box !important;
 		box-sizing: border-box !important;
-		background: url(https://raw.githubusercontent.com/RaitaroH/LinuxMint_Blog-Deepdark/master/Images/search.png) no-repeat !important;
+		background: url(https://raw.githubusercontent.com/RaitaroH/LinuxMint_Blog-Deepdark/raw/master/Images/search.png) no-repeat !important;
 		width: 14px !important;
 		height: 14px !important;
 		padding-left: 14px !important;
